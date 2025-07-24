@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2e7d32;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.question h3 {
+  cursor: pointer;
+  color: #2e7d32;
+}
+
+.answer {
+  display: none;
+  padding-left: 10px;
+}
